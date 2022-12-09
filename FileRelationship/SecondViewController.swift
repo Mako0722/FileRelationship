@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  SecondViewController.swift
 //  FileRelationship
 //
 //  Created by 中田誠 on 2022/12/09.
@@ -7,15 +7,14 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class SecondViewController: UIViewController {
 
-    @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var label2: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        label2.text = "２つ目の画面"
         // Do any additional setup after loading the view.
-        label3.text = "３つ目の画面です。"
     }
     
 

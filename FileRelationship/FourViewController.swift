@@ -9,9 +9,12 @@ import UIKit
 
 class FourViewController: UIViewController {
 
+    @IBOutlet weak var label4: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        label4.text = "４つ目の画面"
         // Do any additional setup after loading the view.
     }
     
